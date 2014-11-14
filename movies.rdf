@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:movies="http://www.taotesting.com/movies.rdf#"
+	xml:base="http://www.taotesting.com/movies.rdf#">
+	
+    <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#Movie">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:label xml:lang="en-US">Movie</rdfs:label>
+        <rdfs:label xml:lang="fr-FR">Film</rdfs:label>
+        <rdfs:comment xml:lang="en-US">The Movie Class.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-Fr">La classe Film.</rdfs:comment>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#starring">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:label xml:lang="en-US">Starring</rdfs:label>
+        <rdfs:label xml:lang="fr-FR">Avec</rdfs:label>
+        <rdfs:comment xml:lang="en-US">The Starring Property.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-Fr">La propriété Avec.</rdfs:comment>
+        <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#directedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:label xml:lang="en-US">Directed by</rdfs:label>
+        <rdfs:label xml:lang="fr-FR">Réalisé par</rdfs:label>
+        <rdfs:comment xml:lang="en-US">The Directed by Property.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-Fr">La propriété Réalisé par.</rdfs:comment>
+        <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#year">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:label xml:lang="en-US">Year</rdfs:label>
+        <rdfs:label xml:lang="fr-FR">Année</rdfs:label>
+        <rdfs:comment xml:lang="en-US">The Year Property.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-Fr">La propriété Année par.</rdfs:comment>
+        <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#Actor">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:label xml:lang="en-US">Actor</rdfs:label>
+        <rdfs:label xml:lang="fr-FR">Acteur</rdfs:label>
+        <rdfs:comment xml:lang="en-US">The Actor Class.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-Fr">La classe Acteur.</rdfs:comment>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#Director">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:label xml:lang="en-US">Director</rdfs:label>
+        <rdfs:label xml:lang="fr-FR">Réalisateur</rdfs:label>
+        <rdfs:comment xml:lang="en-US">The Director Class.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-Fr">La classe Réalisateur.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
