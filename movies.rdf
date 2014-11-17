@@ -40,6 +40,15 @@
         <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
     </rdf:Description>
     
+    <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#abstract">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:label xml:lang="en-US">Abstract</rdfs:label>
+        <rdfs:label xml:lang="fr-FR">Synopsis</rdfs:label>
+        <rdfs:comment xml:lang="en-US">The Abstract Property.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-Fr">La propriété Synopsis par.</rdfs:comment>
+        <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
+    </rdf:Description>
+    
     <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#Actor">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdfs:label xml:lang="en-US">Actor</rdfs:label>
