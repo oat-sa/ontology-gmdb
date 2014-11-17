@@ -11,7 +11,7 @@ As for DBPedia, this derivate work is released under the terms of the [Creative 
 and the [GNU Free Documentation License](http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License).
 
 ## Available Years
-At the present time, all movies referenced by DBPedia are delivered for years 2010 to 2014. This means approximatively 80.000 triples.
+At the present time, all movies referenced by DBPedia are delivered for years 2010 to 2014. This means approximatively 180.000 triples.
 
 ## Available Languages
 If available, Literal resources of this ontology are provided in the following languages:
