@@ -28,3 +28,9 @@ If available, Literal resources of this ontology are provided in the following l
 * Japanese (ja-JP)
 * Russian (ru-RU)
 * Chinese (zh-SG)
+
+## Usage
+
+```
+composer require oat-sa/extension-tao-gmdb
+```
