@@ -6,6 +6,10 @@ This ontology is derived from [DBPedia](http://dbpedia.org), the Semantic Web eq
 
 The provided files representing the ontology are using the [RDF/XML](http://en.wikipedia.org/wiki/RDF/XML) serialization.
 
+## Model
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/4217431/20963722/e712e756-bc6e-11e6-8b45-3729ac934991.png" alt="Model" /></p>
+
 ## License
 As for DBPedia, this derivate work is released under the terms of the [Creative Commons Attribution-ShareAlike 3.0 License](http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
 and the [GNU Free Documentation License](http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License).
