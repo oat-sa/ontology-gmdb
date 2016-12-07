@@ -10,7 +10,7 @@
         <rdfs:label xml:lang="en-US">Movie</rdfs:label>
         <rdfs:label xml:lang="fr-FR">Film</rdfs:label>
         <rdfs:comment xml:lang="en-US">The Movie Class.</rdfs:comment>
-        <rdfs:comment xml:lang="fr-Fr">La classe Film.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-FR">La classe Film.</rdfs:comment>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#starring">
@@ -18,7 +18,7 @@
         <rdfs:label xml:lang="en-US">Starring</rdfs:label>
         <rdfs:label xml:lang="fr-FR">Avec</rdfs:label>
         <rdfs:comment xml:lang="en-US">The Starring Property.</rdfs:comment>
-        <rdfs:comment xml:lang="fr-Fr">La propriété Avec.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-FR">La propriété Avec.</rdfs:comment>
         <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
     </rdf:Description>
     
@@ -27,7 +27,7 @@
         <rdfs:label xml:lang="en-US">Directed by</rdfs:label>
         <rdfs:label xml:lang="fr-FR">Réalisé par</rdfs:label>
         <rdfs:comment xml:lang="en-US">The Directed by Property.</rdfs:comment>
-        <rdfs:comment xml:lang="fr-Fr">La propriété Réalisé par.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-FR">La propriété Réalisé par.</rdfs:comment>
         <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
     </rdf:Description>
     
@@ -36,7 +36,7 @@
         <rdfs:label xml:lang="en-US">Year</rdfs:label>
         <rdfs:label xml:lang="fr-FR">Année</rdfs:label>
         <rdfs:comment xml:lang="en-US">The Year Property.</rdfs:comment>
-        <rdfs:comment xml:lang="fr-Fr">La propriété Année par.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-FR">La propriété Année par.</rdfs:comment>
         <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
     </rdf:Description>
     
@@ -45,7 +45,7 @@
         <rdfs:label xml:lang="en-US">Abstract</rdfs:label>
         <rdfs:label xml:lang="fr-FR">Synopsis</rdfs:label>
         <rdfs:comment xml:lang="en-US">The Abstract Property.</rdfs:comment>
-        <rdfs:comment xml:lang="fr-Fr">La propriété Synopsis par.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-FR">La propriété Synopsis par.</rdfs:comment>
         <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
     </rdf:Description>
     
@@ -54,7 +54,7 @@
         <rdfs:label xml:lang="en-US">Actor</rdfs:label>
         <rdfs:label xml:lang="fr-FR">Acteur</rdfs:label>
         <rdfs:comment xml:lang="en-US">The Actor Class.</rdfs:comment>
-        <rdfs:comment xml:lang="fr-Fr">La classe Acteur.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-FR">La classe Acteur.</rdfs:comment>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://www.taotesting.com/movies.rdf#Director">
@@ -62,6 +62,6 @@
         <rdfs:label xml:lang="en-US">Director</rdfs:label>
         <rdfs:label xml:lang="fr-FR">Réalisateur</rdfs:label>
         <rdfs:comment xml:lang="en-US">The Director Class.</rdfs:comment>
-        <rdfs:comment xml:lang="fr-Fr">La classe Réalisateur.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-FR">La classe Réalisateur.</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
