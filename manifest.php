@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'name'        => 'gmdb',
+    'name'        => 'taoGmdb',
     'label'       => 'Generis Move DataBase',
     'description' => 'A TAO Extension containing a multi-lingual set of movie descritpions.',
     'license'     => 'GFDL - CC BY-SA 3.0',
