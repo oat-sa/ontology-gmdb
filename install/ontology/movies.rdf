@@ -45,7 +45,7 @@
         <rdfs:label xml:lang="en-US">Abstract</rdfs:label>
         <rdfs:label xml:lang="fr-FR">Synopsis</rdfs:label>
         <rdfs:comment xml:lang="en-US">The Abstract Property.</rdfs:comment>
-        <rdfs:comment xml:lang="fr-FR">La propriété Synopsis par.</rdfs:comment>
+        <rdfs:comment xml:lang="fr-FR">La propriété Synopsis.</rdfs:comment>
         <rdfs:domain resource="http://www.taotesting.com/movies.rdf#Movie"/>
     </rdf:Description>
     
